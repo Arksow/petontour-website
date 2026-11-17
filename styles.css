@@ -101,7 +101,6 @@ details p { margin: -.1rem 2rem 1rem 0; color: var(--muted); }
 .registration { background: var(--ink); color: var(--paper); }
 .registration-inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding-block: clamp(2.7rem, 6vw, 4.8rem); }
 .registration .eyebrow { color: var(--yellow); }
-.registration p:last-child { margin-top: .9rem; max-width: 45ch; }
 .finish-line { flex: 0 0 9rem; height: 4.5rem; background-size: 48px 48px; color: var(--yellow); transform: skewX(-12deg); }
 .site-footer { border-top: 1px solid var(--line); }
 .footer-inner { padding-block: .85rem; }
