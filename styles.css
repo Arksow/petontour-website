@@ -24,7 +24,7 @@ a { color: inherit; }
 :focus-visible { outline: 3px solid #834500; outline-offset: 4px; }
 section[id] { scroll-margin-top: 1.5rem; }
 p, h1, h2, h3, dl, dd { margin: 0; }
-h1, h2, h3, .wordmark { font-family: var(--heading); }
+h1, h2, h3 { font-family: var(--heading); }
 h2 { font-size: clamp(2.65rem, 5vw, 4.5rem); font-weight: 800; line-height: .98; letter-spacing: -.015em; }
 h3 { font-size: 2rem; font-weight: 800; line-height: 1.05; }
 .container { width: min(100% - 5rem, 78rem); margin-inline: auto; }
@@ -33,15 +33,14 @@ h3 { font-size: 2rem; font-weight: 800; line-height: 1.05; }
 .skip-link:focus { transform: translateY(0); }
 .site-header { border-bottom: 1px solid var(--line); }
 .header-inner, .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; min-height: 4.75rem; }
-.wordmark { display: inline-flex; align-items: center; gap: .6rem; font-size: 1.65rem; line-height: 1; font-weight: 900; text-transform: uppercase; text-decoration: none; white-space: nowrap; }
-.checker, .finish-line {
-  color: var(--ink);
+.wordmark { flex: 0 0 auto; }
+.wordmark img { width: 7.75rem; height: auto; }
+.finish-line {
   background: repeating-conic-gradient(currentColor 0 25%, transparent 0 50%) 0 0 / 16px 16px;
 }
-.checker { width: 24px; height: 16px; transform: skewX(-12deg); }
 .site-header nav { display: flex; gap: clamp(1rem, 3vw, 2.65rem); }
 .site-header nav a { font-size: .9rem; font-weight: 700; text-decoration: none; }
-.site-header nav a:hover, .wordmark:hover { text-decoration: underline; text-underline-offset: .24em; }
+.site-header nav a:hover { text-decoration: underline; text-underline-offset: .24em; }
 
 .button {
   display: inline-flex;
