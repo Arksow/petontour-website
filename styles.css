@@ -34,7 +34,7 @@ h3 { font-size: 2rem; font-weight: 800; line-height: 1.05; }
 .site-header { border-bottom: 1px solid var(--line); }
 .header-inner, .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; min-height: 4.75rem; }
 .wordmark { flex: 0 0 auto; }
-.wordmark img { width: clamp(9rem, 24vw, 13rem); height: auto; }
+.wordmark img { width: 7.75rem; height: auto; }
 .finish-line {
   background: repeating-conic-gradient(currentColor 0 25%, transparent 0 50%) 0 0 / 16px 16px;
 }
